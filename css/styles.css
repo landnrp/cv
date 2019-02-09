@@ -1,0 +1,95 @@
+P {
+  text-align: center;
+  font-size: 1.6rem;
+  font-family: 'Taviraj', serif;
+  line-height: 2;
+  letter-spacing: 2px;
+
+}
+
+body {
+  background-color: #233142;
+  text-align: center;
+  color: #fff;
+}
+
+.banner-pic {
+  position: relative;
+  margin: 5px;
+  width: 70%;
+}
+
+.titleText {
+  margin: 13px auto;
+  padding: 60px 50px 20px;
+
+}
+ .compname {
+   font-size: 3.7rem;
+   margin: 20px;
+   padding: 0 60px 45px 60px;
+   font-family: 'Tinos', serif;
+ }
+.brandimg {
+  width: 8%;
+  position: relative;
+}
+.brandtab {
+  background-color: #4F9CA6;
+  margin-left: auto;
+  margin-right: auto;
+}
+.brandtab:hover {
+  background-color: #407f87;
+}
+.sectionslot {
+
+}
+
+
+
+.slotsec {
+  background-color: #233142;
+  position: relative;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  align-content: center;
+}
+
+.slottext {
+  color: #4F9CA6;
+  text-align:center;
+  margin-top: 3px;
+  line-height: 50px;
+}
+.slotpicdiv {
+  background-color: #233142;
+  padding-bottom: 2%;
+  align-content: center;
+}
+
+.desslot {
+  font-size: 2.8rem;
+  font-weight: 300;
+  font-family: 'Taviraj', serif;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+.desslotth {
+  font-size: 1.7rem;
+}
+.plain {
+  color: #fff;
+}
+.paint {
+  background: -webkit-linear-gradient(#facf5a, #ff5959);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
